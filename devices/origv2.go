@@ -45,7 +45,7 @@ func init() {
 	streamdeck.RegisterDevicetype(
 		ov2Name, // Name
 		image.Point{X: int(ov2ButtonWidth), Y: int(ov2ButtonHeight)}, // Width/height of a button
-		0x6d,                        // USB productID
+		0x80,                        // USB productID
 		resetPacket32(),             // Reset packet
 		15,                          // Number of buttons
 		3,                           // Number of rows
