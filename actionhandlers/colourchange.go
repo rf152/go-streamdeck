@@ -3,8 +3,8 @@ package actionhandlers
 import (
 	"image/color"
 
-	streamdeck "github.com/magicmonkey/go-streamdeck"
-	"github.com/magicmonkey/go-streamdeck/buttons"
+	streamdeck "github.com/rf152/go-streamdeck"
+	"github.com/rf152/go-streamdeck/buttons"
 )
 
 type ColourChangeAction struct {

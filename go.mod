@@ -1,4 +1,4 @@
-module github.com/magicmonkey/go-streamdeck
+module github.com/rf152/go-streamdeck
 
 go 1.13
 

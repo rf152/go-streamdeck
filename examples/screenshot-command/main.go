@@ -6,11 +6,11 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/magicmonkey/go-streamdeck"
-	"github.com/magicmonkey/go-streamdeck/actionhandlers"
-	"github.com/magicmonkey/go-streamdeck/buttons"
+	"github.com/rf152/go-streamdeck"
+	"github.com/rf152/go-streamdeck/actionhandlers"
+	"github.com/rf152/go-streamdeck/buttons"
 	// needed to get the device definitions
-	_ "github.com/magicmonkey/go-streamdeck/devices"
+	_ "github.com/rf152/go-streamdeck/devices"
 )
 
 func main() {

@@ -5,11 +5,11 @@ import (
 	"image/color"
 	"time"
 
-	streamdeck "github.com/magicmonkey/go-streamdeck"
-	"github.com/magicmonkey/go-streamdeck/actionhandlers"
-	"github.com/magicmonkey/go-streamdeck/buttons"
-	"github.com/magicmonkey/go-streamdeck/decorators"
-	_ "github.com/magicmonkey/go-streamdeck/devices"
+	streamdeck "github.com/rf152/go-streamdeck"
+	"github.com/rf152/go-streamdeck/actionhandlers"
+	"github.com/rf152/go-streamdeck/buttons"
+	"github.com/rf152/go-streamdeck/decorators"
+	_ "github.com/rf152/go-streamdeck/devices"
 )
 
 func main() {
